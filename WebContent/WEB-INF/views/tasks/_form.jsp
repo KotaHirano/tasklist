@@ -7,10 +7,10 @@
 </label>
 <br />
 <br />
-<label>タスク<br /> <input type="text" name="content"
+<label>内容<br /> <input type="text" name="content"
     value="${task.content}" />
 </label>
 <br />
 <br />
 <input type="hidden" name="_token" value="${_token}" />
-<button type="submit">追加</button>
+<button type="submit">決定</button>
